@@ -1,0 +1,47 @@
+html{
+background: #C6FFDD;
+background: -webkit-linear-gradient(to right, #f7797d,      #FBD786, #C6FFDD);
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+}
+
+header, body, footer{
+  background-color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+header > div {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+header > a {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  margin: .5rem;
+  padding-top: -1rem;
+}
+body{
+  padding-top: 2rem;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: white;
+  width: 12rem;
+  padding: .5rem;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body > p{
+  font-family: helvetica;
+  line-height: 1.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
